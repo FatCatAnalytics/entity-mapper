@@ -1,0 +1,3 @@
+# Only needed to package the desktop app (npm run build)
+-r requirements.txt
+pyinstaller>=6.0

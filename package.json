@@ -1,0 +1,16 @@
+{
+  "name": "entity-mapper",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "setup": "npm install && npm --prefix web install",
+    "build:web": "npm --prefix web run build",
+    "build:engine": "python scripts/build_engine.py",
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}

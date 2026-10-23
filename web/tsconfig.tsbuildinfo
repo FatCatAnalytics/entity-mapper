@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/components/filepicker.tsx","./src/components/matchstep.tsx","./src/components/memorystep.tsx","./src/components/ownerstep.tsx","./src/components/periodstep.tsx","./src/components/referencestep.tsx","./src/components/reviewstep.tsx","./src/components/startstep.tsx"],"version":"5.9.3"}

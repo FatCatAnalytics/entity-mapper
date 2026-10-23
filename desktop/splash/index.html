@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Entity Mapper</title>
+    <link rel="stylesheet" href="splash.css" />
+  </head>
+  <body>
+    <main>
+      <div class="logo">EM</div>
+      <h1>Entity Mapper</h1>
+      <p id="status"><span class="spinner" aria-hidden="true"></span>Starting the matching engine on this computer…</p>
+      <p id="slow" hidden>The first start after installing takes longer while Windows checks the files.</p>
+      <div id="failed" hidden>
+        <p id="reason"></p>
+        <p>Close this window and open Entity Mapper again. If it keeps happening, send this file to the owner:</p>
+        <p><code>%USERPROFILE%\EntityMapper\logs\engine.log</code></p>
+      </div>
+    </main>
+    <script src="splash.js"></script>
+  </body>
+</html>

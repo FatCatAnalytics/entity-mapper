@@ -1,0 +1,11 @@
+.venv/
+node_modules/
+web/node_modules/
+build/
+dist-engine/engine/*
+!dist-engine/engine/README.txt
+src-tauri/target/
+src-tauri/gen/
+__pycache__/
+.pytest_cache/
+sample_data/
