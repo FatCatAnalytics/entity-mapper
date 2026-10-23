@@ -9,3 +9,10 @@ src-tauri/gen/
 __pycache__/
 .pytest_cache/
 sample_data/
+
+# Client data — never commit
+master.csv
+FY25 Delivered.csv
+1h26 received.csv
+*.csv
+!requirements*.txt
